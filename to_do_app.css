@@ -40,7 +40,14 @@ body {
 
 .d_area {
     margin: 5px 15px;
+    padding: 1px;
 }
+
+
+
+/* .task button.material-icons {
+  
+} */
 
 .task_creation button {
     padding: 5px;
@@ -54,6 +61,7 @@ body {
 
 .daily_task {
     width: 300px;
+    margin: 10px 0;
 }
 
 .task {
@@ -70,4 +78,9 @@ body {
     color: rgb(17, 17, 19);
     padding: 3px;
 
+}
+
+.check {
+    text-decoration: line-through;
+    opacity: 0.5;
 }
